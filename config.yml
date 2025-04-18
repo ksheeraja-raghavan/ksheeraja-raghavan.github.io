@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://ksheeraja-raghavan.github.io" 
+title: Ksheeraja Raghavan
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -27,8 +27,8 @@ menu:
           weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I am a member of Technical Staff at OCI- passionate about ML Research and AI"
+    author: Ksheeraja Raghavan
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["Research Interests","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,9 +52,9 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Ksheeraja Raghavan
+          subtitle: "I am a member of Technical Staff at OCI- passionate about AI and ML and their applications"
+          imageUrl: "myAvatar.svg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -64,7 +64,7 @@ params:
               url: courses/
             - name: Data
               url: data/
-            - name: Books
+            - name: Research Interests
               url: books/
             - name: Tags
               url: tags/
@@ -77,7 +77,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
+          url: mailto:ksheerajaraghavan1996@gmail.com
         - name: Zoom
           url: https://www.zoom.us/my/igelfeld
         - name: Location
@@ -87,7 +87,7 @@ params:
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
+          url: https://github.com/ksheeraja-raghavan
         - name: Substack
           url: https://pmichaillat.substack.com
         - name: YouTube
@@ -101,7 +101,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Ksheeraja Raghavan"
       icon: favicon.ico
       iconHeight: 18
 
