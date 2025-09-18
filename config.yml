@@ -85,8 +85,8 @@ params:
         url: /papers/
       - name: Teaching
         url: /courses/
-      - name: News
-        url: /news/
+      - name: Art
+        url: /art/
 
   socialIcons:
     - name: CV
