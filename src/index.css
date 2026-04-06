@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT@9..144,500..700,0&display=swap");
+
+:root {
+  --text: #212734;
+  --text-h: #141925;
+  --muted: #5c6679;
+  --bg: #cfe0f7;
+  --surface: #eaf2ff;
+  --surface-muted: #e1ebfb;
+  --border: #e3e8ef;
+  --accent: #1f4fa3;
+
+  --sans: "Instrument Sans", "Avenir Next", "Segoe UI", sans-serif;
+  --display: "Fraunces", Georgia, serif;
+
+  font: 16px/1.65 var(--sans);
+  color: var(--text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: var(--sans);
+  background: var(--bg);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 24px,
+      rgba(31, 79, 163, 0.06) 24px,
+      rgba(31, 79, 163, 0.06) 25px
+    );
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 36px 18px 60px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--text-h);
+}
+
+h1 {
+  font-family: var(--display);
+  font-size: clamp(2.1rem, 4.6vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+}
+
+a {
+  color: inherit;
+}
+
+@media (max-width: 760px) {
+  #root {
+    padding: 20px 12px 36px;
+  }
+}
